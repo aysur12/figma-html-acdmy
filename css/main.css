@@ -1,0 +1,51 @@
+body {
+	color: #AE7C78;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 19.5px;
+}
+
+.line-up {
+	position: absolute;
+	width: 1440px;
+	height: 0;
+	left: 0;
+	top: 26px;
+	border: 1px solid #AE7C78;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+
+.grid {
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-areas:
+		"nav nav nav nav nav nav nav nav nav nav nav nav"
+	
+	;
+	margin: 0 120px;
+	grid-gap: 20px;
+}
+
+.nav-main {
+	grid-area: nav;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	margin: 26px 0 0;
+	padding: 0;
+}
+
+.nav-list>li {
+	padding: 22px 15px;
+}
+
+.nav-list:nth-child(4) {
+	padding: 16px 0;
+}
+
