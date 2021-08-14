@@ -39,13 +39,11 @@ h1 {
 	list-style-type: none;
 	margin: 26px 0 0;
 	padding: 0;
+	font-weight: 400;
 }
 
-.nav-list>li {
+.nav-list {
 	padding: 22px 15px;
 }
 
-.nav-list:nth-child(4) {
-	padding: 16px 0;
-}
 
