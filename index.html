@@ -6,27 +6,81 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Авторские буклеты в Петербурге</title>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="line-up"></div>
-	<div class="line-down"></div>
-	<div class="grid">
+	<header class="main-header">
 		<nav class="nav-main">
 			<ul class="nav-list">
-				<li>Каталог</li>
-				<li>Доставка и оплата</li>
-				<li>Отзывы</li>
-				<li>
-					<img src="img/logo.png" alt="Логотип">
+				<li class="nav-item">Каталог</li>
+				<li class="nav-item">Доставка и оплата</li>
+				<li class="nav-item">Отзывы</li>
+				<li class="nav-item"> 
+					<a href="#"><img src="img/logo.svg" alt="Логотип"></a>
 				</li>
-				<li>Спецпредложения</li>
-				<li>Контакты</li>
-				<li>Корзина</li>
+				<li class="nav-item">Спецпредложения</li>
+				<li class="nav-item">Контакты</li>
+				<li class="nav-item">Корзина</li>
 			</ul>
 		</nav>
-	</div>	
+	</header>
+	<main>
+			<section class="title-info">
+				<div class="title-item">
+					<h1>Авторские букеты <span>в Петербурге</span></h1>
+					<p>Оригинальные свежие букеты с доставкой по всему городу</p>
+					<button class="btn-common btn-catalog">Смотреть каталог</button>
+				</div>
+				<div class="title-img-1">
+					<img src="img/flowers-title-one.png" alt="Букет 1" width="386" height="404">
+				</div>
+				<div class="title-img-2">
+					<img src="img/flowers-title-two.png" alt="Букет 2" width="387" height="420">
+				</div>
+			</section>
+			<section class="benefits">
+					<div class="benefits-item benefits-item-1">
+						<img class= "benefits-img-1" src="img/benefit-1.svg" alt="Автомобиль" width="82" height="52">
+						<div class="benefits-info benefits-info-1">
+							<h3>Быстрая доставка</h3>
+							<p>Можем собрать букет и передать его в доставку всего за час.</p>
+						</div>	
+					</div>
+					<div class="benefits-item benefits-item-2">
+						<img class= "benefits-img-2" src="img/benefit-2.svg" alt="Цветы" width="34" height="52">
+						<div class="benefits-info benefits-info-2">
+							<h3>Всегда свежие цветы</h3>
+							<p>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
+						</div>	
+					</div>
+					<div class="benefits-item benefits-item-3">
+						<img class= "benefits-img-3" src="img/benefit-3.svg" alt="Фотоаппарат" width="59" height="52">
+						<div class="benefits-info benefits-info-3">
+							<h3>Отправляем фото цветов</h3>
+							<p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
+						</div>
+					</div>	
+			</section>
+			<section class="popular">
+				<h2>Популярные букеты</h2>
+				<div class="popular-flex">
+					<div class="popular-info">
+						<h4>Букет &#171Нежность&#187</h4>
+						<p class="polular-info-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+						<p>30 × 40 см</p>
+						<p class="popular-price">3600 руб.</p>
+						<button class="btn-common btn-order">Заказать</button>
+					</div>
+					<img src="img/buket-nezhnost.png" alt="Фото букета 'Нежность'" width="387" height="438">
+				</div>
+				<div class="arrow-flex">
+					<a href="#"><img src="img/arrow-left.svg" alt="Стрелка влево" width="50"></a>
+					<a href="#"><img src="img/arrow-right.svg" alt="Стрелка вправо" width="50"></a>
+				</div>	
+			</section>
+	</main>			
 </body>
 </html>
