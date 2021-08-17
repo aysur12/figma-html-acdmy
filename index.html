@@ -13,136 +13,136 @@
 </head>
 <body>
 	<header class="main-header">
-		<nav class="nav-main">
-			<ul class="nav-list">
-				<li class="nav-item">Каталог</li>
-				<li class="nav-item">Доставка и оплата</li>
-				<li class="nav-item">Отзывы</li>
-				<li class="nav-item"> 
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item"><a href="#catalog">Каталог</a></li>
+				<li class="menu__item"><a href="">Доставка и оплата</a></li>
+				<li class="menu__item"><a href="#reviews">Отзывы</a></li>
+				<li class="menu__item"> 
 					<a href="#"><img src="img/logo.svg" alt="Логотип"></a>
 				</li>
-				<li class="nav-item">Спецпредложения</li>
-				<li class="nav-item">Контакты</li>
-				<li class="nav-item">Корзина</li>
+				<li class="menu__item"><a href="#discount">Спецпредложения</a></li>
+				<li class="menu__item"><a href="#contacts">Контакты</a></li>
+				<li class="menu__item"><a href="">Корзина</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-			<section class="title-info">
-				<div class="title-item">
-					<h1>Авторские букеты <span>в Петербурге</span></h1>
+			<section class="about-info">
+				<div class="about-info__item">
+					<h1 class="about__title tittle-h1">Авторские букеты <span>в Петербурге</span></h1>
 					<p>Оригинальные свежие букеты с доставкой по всему городу</p>
 					<button class="btn-common btn-catalog">Смотреть каталог</button>
 				</div>
-				<div class="title-img-1">
+				<div class="about-info__img-1">
 					<img src="img/flowers-title-one.png" alt="Букет 1" width="386" height="404">
 				</div>
-				<div class="title-img-2">
+				<div class="about-info__img-2">
 					<img src="img/flowers-title-two.png" alt="Букет 2" width="387" height="420">
 				</div>
 			</section>
 			<section class="benefits">
-					<div class="benefits-item benefits-item-1">
-						<img class= "benefits-img-1" src="img/benefit-1.svg" alt="Автомобиль" width="82" height="52">
-						<div class="benefits-info benefits-info-1">
-							<h3>Быстрая доставка</h3>
+					<div class="benefits-item benefits-item_1">
+						<img class= "benefits-item__img-1" src="img/benefit-1.svg" alt="Автомобиль" width="82" height="52">
+						<div class="benefits-item__info benefits__info-1">
+							<h3 class="benefits-item__title title-h3">Быстрая доставка</h3>
 							<p>Можем собрать букет и передать его в доставку всего за час.</p>
 						</div>	
 					</div>
-					<div class="benefits-item benefits-item-2">
-						<img class= "benefits-img-2" src="img/benefit-2.svg" alt="Цветы" width="34" height="52">
-						<div class="benefits-info benefits-info-2">
-							<h3>Всегда свежие цветы</h3>
+					<div class="benefits-item benefits-item_2">
+						<img class= "benefits-item__img-2" src="img/benefit-2.svg" alt="Цветы" width="34" height="52">
+						<div class="benefits-item__info benefits__info-2">
+							<h3 class="benefits-item__title title-h3">Всегда свежие цветы</h3>
 							<p>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
 						</div>	
 					</div>
-					<div class="benefits-item benefits-item-3">
-						<img class= "benefits-img-3" src="img/benefit-3.svg" alt="Фотоаппарат" width="59" height="52">
-						<div class="benefits-info benefits-info-3">
-							<h3>Отправляем фото цветов</h3>
+					<div class="benefits-item benefits-item_3">
+						<img class= "benefits-item__img-3" src="img/benefit-3.svg" alt="Фотоаппарат" width="59" height="52">
+						<div class="benefits-item__info benefits__info-3">
+							<h3 class="benefits-item__title title-h3">Отправляем фото цветов</h3>
 							<p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
 						</div>
 					</div>	
 			</section>
 			<section class="popular">
-				<h2>Популярные букеты</h2>
-				<div class="popular-flex">
-					<div class="popular-info">
-						<h4>Букет &#171Нежность&#187</h4>
-						<p class="polular-info-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
-						<p>30 × 40 см</p>
-						<p class="popular-price">3600 руб.</p>
+				<h2 class="popular__title title-h2">Популярные букеты</h2>
+				<div class="popular-bouquet">
+					<div class="popular-bouquet__info">
+						<h4 class="popular-bouquet__title title-h4">Букет &#171Нежность&#187</h4>
+						<p class="popular-bouquet__text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+						<p class="popular-bouquet__proportions">30 × 40 см</p>
+						<p class="popular-bouquet__price">3600 руб.</p>
 						<button class="btn-common btn-order">Заказать</button>
 					</div>
 					<img src="img/buket-nezhnost.png" alt="Фото букета 'Нежность'" width="387" height="438">
 				</div>
 				<div class="arrow-flex">
-					<button class="btn-common btn-arrow"><img src="img/arrow-left.svg" alt="Стрелка влево" width="50"></button>
-					<button class="btn-common btn-arrow"><img src="img/arrow-right.svg" alt="Стрелка вправо" width="50"></button>
+					<button class="btn-common arrow-flex-btn"><img src="img/arrow-left.svg" alt="Стрелка влево" width="50"></button>
+					<button class="btn-common arrow-flex-btn"><img src="img/arrow-right.svg" alt="Стрелка вправо" width="50"></button>
 				</div>	
 			</section>
-			<section class="catalog-sections">
+			<section class="catalog" id="catalog">
 				<ul class="catalog-list">
-					<li class="catalog-list-item">
-						<a class="catalog-link catalog-link-img-1" href="#">
+					<li class="catalog-list__item">
+						<a class="catalog-item__link catalog-item__link_1" href="#">
 							<h2>Свадебные букеты</h2>
 							<p>Букеты для невест</p>
 						</a>
 					</li>
-					<li class="catalog-list-item"> 
-						<a class="catalog-link catalog-link-img-2" href="#">
+					<li class="catalog-list__item"> 
+						<a class="catalog-item__link catalog-item__link_2" href="#">
 							<h2>Букеты с пионами</h2>
 							<p>Букеты с сезонными пионами</p>
 						</a>
 					</li>
-					<li class="catalog-list-item">
-						<a class="catalog-link catalog-link-img-3" href="#">
+					<li class="catalog-list__item">
+						<a class="catalog-item__link catalog-item__link_3" href="#">
 							<h2>Выбрать букет</h2>
 							<p>Букеты в ассортименте</p>
 						</a>
 					</li>
 				</ul>
 			</section>
-			<section class="discount">
+			<section class="discount" id="discount">
 				<div class="discount-info">
-					<p class="discount-info-header">Скидка 10%<br>на первый заказ</p>
-					<p class="discount-info-text">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+					<p class="discount-info__header">Скидка 10%<br>на первый заказ</p>
+					<p class="discount-info__text">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
 				</div>
 				<img src="img/discount-flowers.png" alt="Цветы розы" width="590" height="391">
 			</section>
-			<section class="steps-order">
-				<h2>4 шага к идеальному букету</h2>
-				<div class="steps-order-flex">
-					<div class="steps-order-item steps-order-item-1">
+			<section class="steps">
+				<h2 class="steps__tittle title-h2">4 шага к идеальному букету</h2>
+				<div class="steps-order">
+					<div class="steps-order-item steps-order-item__1">
 						<img src="img/step-1.svg" alt="Заказ" width="66" height="52">
-						<h5>Заказ</h5>
+						<h5 class="steps-order__title title-h5">Заказ</h5>
 						<p>Выберите понравившийся букет из каталога и оформите заказ</p>
 					</div>
-					<div class="steps-order-item steps-order-item-2">
+					<div class="steps-order-item steps-order-item__2">
 						<img src="img/step-2.svg" alt="Уточнение деталей"  width="37" height="52">
-						<h5>Уточнение деталей</h5>
+						<h5 class="steps-order__title title-h5">Уточнение деталей</h5>
 						<p>Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
 					</div>
-					<div class="steps-order-item steps-order-item-3">
+					<div class="steps-order-item steps-order-item__3">
 						<img src="img/step-3.svg" alt="Оплата"  width="70" height="52">
-						<h5>Оплата</h5>
+						<h5 class="steps-order__title title-h5">Оплата</h5>
 						<p>Оплатить заказ можно онлайн на сайте или при получении</p>
 					</div>
-					<div class="steps-order-item steps-order-item-4">
+					<div class="steps-order-item steps-order-item__4">
 						<img src="img/step-4.svg" alt="Доставка" width="82" height="52">
-						<h5>Доставка</h5>
+						<h5 class="steps-order__title title-h5">Доставка</h5>
 						<p>Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
 					</div>
 				</div>	
 			</section>
 			<section class="news">
 				<div class="news-info">
-					<h2>Следите за нашими новостями</h2>
+					<h2 class="news-info__tittle title-h2">Следите за нашими новостями</h2>
 					<p>Подписывайтесь на наши соцсети и узнавайте<br> о новинках и акциях первым.</p>
 					<div class="news-social-icons">
-						<img src="img/social-svg/instagram_icon-1.svg" alt="Instagram" width="20" height="20">
-						<img src="img/social-svg/facebook_icon-1.svg" alt="Facebook" width="12" height="20">
-						<img src="img/social-svg/twitter_icon-1.svg" alt="Twitter" width="26" height="20">
+						<a href="#"><img src="img/social-svg/instagram_icon-1.svg" alt="Instagram" width="20" height="20"></a>
+						<a href="#"><img src="img/social-svg/facebook_icon-1.svg" alt="Facebook" width="12" height="20"></a>
+						<a href="#"><img src="img/social-svg/twitter_icon-1.svg" alt="Twitter" width="26" height="20"></a>
 					</div>
 				</div>
 				<div class="news-little-img">
@@ -151,28 +151,28 @@
 				</div>
 				<img src="img/news-big-img.png" alt="Фото цветов-3" width="387" height="460">
 			</section>
-			<section class="reviews">
-				<h2>Отзывы</h2>
+			<section class="reviews" id="reviews">
+				<h2 class="reviews__tittle title-h2">Отзывы</h2>
 				<ul class="reviews-list">
-					<li class="reviews-list-item">
+					<li class="reviews-list__item">
 						<p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
 						<p>Марина</p>
 					</li>
-					<li class="reviews-list-item">
+					<li class="reviews-list__item">
 						<p>Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</p>
 						<p>Татьяна</p>
 					</li>
-					<li class="reviews-list-item">
+					<li class="reviews-list__item">
 						<p>Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</p>
 						<p>Ольга</p>
 					</li>
 				</ul>
 			</section>
-			<section class="contacts">
+			<section class="contacts" id="contacts">
 				<div class="contacts-grid">
 					<div class="contacts-block">
-						<div class="contacts-info">
-							<h2>Мы ждем вас</h2>
+						<div class="contacts-block__info">
+							<h2 class="contacts-block__title title-h2">Мы ждем вас</h2>
 							<div>
 								<p>Приходите к нам:</p>
 								<p>Санкт-Петербург, ул. Большая Конюшенная, 19</p>
@@ -181,11 +181,11 @@
 								<p>Режим работы:</p>
 								<p>Пн-Вск, с 9-00 до 20-00</p>
 							</div>
-							<div class="tel-info">
+							<div class="contacts-block__tel">
 								<p>Позвоните нам:</p>
 								<a href="tel:+78129834719">+ 7 (812) 983-47-19</a>
 							</div>
-							<div class="mail-info">
+							<div class="contacts-block__mail">
 								<p>Напишите нам:</p>
 								<a href="mailto:info@botanika.ru">info@botanika.ru</a> 
 							</div>
@@ -196,18 +196,20 @@
 	</main>		
 	<footer class="footer">
 		<div class="footer-flex">
-			<img src="img/footer-logo.svg" alt="Лого" width="100" height="32">
+			<a href="#">
+				<img src="img/footer-logo.svg" alt="Лого" width="100" height="32">
+			</a>
 			<ul class="footer-info">
-				<li><a href="">Каталог</a></li>
+				<li><a href="#catalog">Каталог</a></li>
 				<li><a href="">Доставка и оплата</a></li>
-				<li><a href="">Отзывы</a></li>
-				<li><a href="">Спецпредложения</a></li>
-				<li><a href="">Контакты</a></li>
+				<li><a href="#reviews">Отзывы</a></li>
+				<li><a href="#discount">Спецпредложения</a></li>
+				<li><a href="#contacts">Контакты</a></li>
 			</ul>	
 			<div class="social-icons-footer">
-				<img src="img/social-svg/instagram_icon.svg" alt="Instagram" width="20" height="20">
-				<img src="img/social-svg/facebook_icon.svg" alt="Facebook" width="12" height="20">
-				<img src="img/social-svg/twitter_icon.svg" alt="Twitter" width="26" height="20">
+				<a href="#"><img src="img/social-svg/instagram_icon.svg" alt="Instagram" width="20" height="20"></a>
+				<a href="#"><img src="img/social-svg/facebook_icon.svg" alt="Facebook" width="12" height="20"></a>
+				<a href="#"><img src="img/social-svg/twitter_icon.svg" alt="Twitter" width="26" height="20"></a>
 			</div>
 		</div>
 	</footer>
