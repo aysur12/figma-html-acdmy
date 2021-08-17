@@ -15,8 +15,18 @@ a {
 	color: #ae7c78;
 }
 
+.visually-hidden {
+	position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 
-/* h1, h2, h3, h4, h5*/
+/* h1, h2, h3, h4, h5 */
 
 .tittle-h1 {
 	font-family: 'Playfair Display', 'Georgia', serif;
@@ -62,6 +72,12 @@ h5 {
 	border: none;
 	outline: none;
 	cursor: pointer;
+}
+
+.btn-common:hover {
+	color: #ae7c78;
+	background-color:#fff;
+	border: 1px solid #ae7c78;
 }
 
 /*HEADER*/
@@ -272,7 +288,7 @@ h5 {
 	list-style-type: none;
 }
 
-.catalog-item__link {
+.catalog-list__link {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -287,19 +303,23 @@ h5 {
 	box-shadow: 387px 442px rgba(174, 124, 120, 0.6) inset;
 }
 
-.catalog-item__link_1 {
+.catalog-list__link_1 {
 	background-image: url(../img/catalog-img-1.png);
 }
 
-.catalog-item__link_2 {
+.catalog-list__link_2 {
 	background-image: url(../img/catalog-img-2.png);
 }
 
-.catalog-item__link_3 {
+.catalog-list__link_3 {
 	background-image: url(../img/catalog-img-3.png);
 }
 
-.catalog-item__link>p {
+.catalog-list__title {
+	margin: 0;
+}
+
+.catalog-list__link>p {
 	margin: 8px 0 0;
 }
 
